@@ -1,5 +1,6 @@
 const bodyParser = require("body-parser");
 const express = require("express");
+require('dotenv').config()
 const dbConnect = require("./config/dbConnect");
 const { notFound, errorHandler } = require("./middlewares/errorHandler");
 const app = express();
