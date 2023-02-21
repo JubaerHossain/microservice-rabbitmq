@@ -4,7 +4,7 @@ require('dotenv').config()
 const dbConnect = require("./config/dbConnect");
 const { notFound, errorHandler } = require("./middlewares/errorHandler");
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const authRouter = require("./routes/authRoute");
 const cookieParser = require("cookie-parser");
 const morgan = require("morgan");
