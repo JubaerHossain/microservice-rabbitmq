@@ -1,8 +1,33 @@
 {
+  "name": "auth-service",
+  "version": "1.0.0",
+  "keywords": [
+    "nodejs",
+    "express",
+    "rabbitmq",
+    "amqp",
+    "microservice",
+    "auth",
+    "authentication",
+    "authorization",
+    "jwt",
+    "jsonwebtokens"
+  ],
+  "description": "This is a simple authentication service for microservice architecture. It uses JWT for authentication and authorization. It uses RabbitMQ for communication between services.It uses Express for routing.It uses amqplib for RabbitMQ communication.",
+  "main": "/src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "amqplib": "^0.10.3",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "Jubaer Hossain",
+    "email": "jubaer01.cse@gmail.com"
+  },
+  "license": "ISC"
 }
